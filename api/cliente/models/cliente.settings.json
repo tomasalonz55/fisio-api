@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clientes",
+  "info": {
+    "name": "Cliente"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Nombres": {
+      "type": "string"
+    },
+    "Apellidos": {
+      "type": "string"
+    },
+    "Fecha_Nacimiento": {
+      "type": "date"
+    }
+  }
+}
